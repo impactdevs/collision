@@ -19,7 +19,7 @@
 		<div class="container">
 			<div class="row" style="margin-top: 100px;">
 				<div class="col-6 d-flex align-items-center">
-					<img src="<?= base_url('assets/images/Logo/large-logo.png') ?>" alt="" style="width: 80%; margin: 0 10%;">
+					<img src="<?= base_url('assets/images/Logo/collision-logo.png') ?>" alt="" style="width: 80%; margin: 0 10%;">
 				</div>
 				<div class="col-6 d-flex align-items-center">
 					<form class="p-4" action="<?= base_url('authenticate') ?>" method="POST" style="width: 80%; margin: 0 auto; background-color: #f5f5f5; border: 1px solid #ced4da;">
