@@ -7,7 +7,7 @@
 		<meta name="description" content="">
 		<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
 		<meta name="generator" content="Jekyll v3.8.5">
-		<title>Dashboard · AWS</title>
+		<title>Dashboard · Collision</title>
 
 		<!-- Bootstrap core CSS -->
 		<link rel="stylesheet" href="<?= base_url('assets/vendors/Bootstrap/bootstrap.css') ?>">
