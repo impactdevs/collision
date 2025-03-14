@@ -99,7 +99,7 @@ class Util extends BaseController
 	public function overview_counter()
 	{
 		$client = new MongoDB();
-		$collection = $client->staging->entries;
+		$collection = $client->collision->entries;
 		$data['entries'] = $collection->countDocuments();
 		$data['forms'] = $this->db->query('SELECT * FROM question_form')->getNumRows();
 		$data['mobile_users'] = $this->db->query('SELECT * FROM user')->getNumRows();

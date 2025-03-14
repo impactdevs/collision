@@ -19,7 +19,7 @@ class Indicator_chart extends BaseController
 		$model = new IndicatorChartModel();
 
 		$client = new MongoDB();
-		$collection = $client->staging->entries;
+		$collection = $client->collision->entries;
 
 		if (isset($params['chart_id'])) {
 			$chart = $model->getWhere(['chart_id' => $params['chart_id']])->getRow();

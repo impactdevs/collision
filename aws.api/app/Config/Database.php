@@ -36,7 +36,7 @@ class Database extends Config
 		'username' => 'root',
 		'password' => 'H3aven@22',
 		// 'database' => 'aws',
-		'database' => 'staging_aws_v2',
+		'database' => 'collision_aws_v2',
 		'DBDriver' => 'MySQLi',
 		'DBPrefix' => '',
 		'pConnect' => false,

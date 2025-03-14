@@ -56,7 +56,7 @@ class User extends BaseController
 		$user_map = $utility->mobile_user_mapper();
 
         $client = new MongoDB();
-        $collection = $client->staging->entries;
+        $collection = $client->collision->entries;
 
 		$submissions = $collection->aggregate(
 			[

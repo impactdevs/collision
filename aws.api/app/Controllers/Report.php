@@ -19,7 +19,7 @@ class Report extends BaseController
 		$params = $this->request->getGet();
 
         $client = new MongoDB();
-        $collection = $client->staging->entries;
+        $collection = $client->collision->entries;
 		if (isset($params['entry_form_id'])) {
             $data = $collection->findOne(['entry_form_id' => $params['entry_form_id']]);
 			$data->media_directory = base_url('writable/uploads/');

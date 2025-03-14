@@ -20,7 +20,7 @@ class Chart extends BaseController
 		$model = new ChartModel();
 
 		$client = new MongoDB();
-		$collection = $client->staging->entries;
+		$collection = $client->collision->entries;
 
 		if (isset($params['chart_id'])) {
 			$chart = (array) $model->getWhere(['chart_id' => $params['chart_id']])->getRow();
